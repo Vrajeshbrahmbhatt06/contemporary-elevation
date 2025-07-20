@@ -8,39 +8,39 @@ const Gallery = () => {
   const mediaItems = [
     {
       type: "image",
-      src: "https://images.unsplash.com/photo-1518005020951-eccb494ad742",
-      alt: "Modern custom home exterior",
+      src: "./assets/family_home2.jpg",
+      alt: "Modern custom home",
       title: "Contemporary Family Home"
     },
     {
       type: "image",
-      src: "https://images.unsplash.com/photo-1496307653780-42ee777d4833",
-      alt: "Glass building detail",
-      title: "Architectural Details"
+      src: "./assets/exterior.jpg",
+      alt: "Exterior Elegance",
+      title: "Exterior Elegance"
+    },
+    {
+      type: "image",
+      src: "./assets/additions2.jpg",
+      alt: "Custom Homes & Additions",
+      title: "Custom Homes & Additions"
     },
     {
       type: "video",
-      src: "https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4",
-      thumbnail: "https://images.unsplash.com/photo-1431576901776-e539bd916ba2",
-      alt: "Construction process video",
-      title: "Build Process Showcase"
+      src: "./assets/showcase_video.mp4",
+      thumbnail: "./assets/showcase_thumbnail2.jpg",
+      alt: "The Makeover Project video",
+      title: "The Makeover Project"
     },
     {
       type: "image",
-      src: "https://images.unsplash.com/photo-1449157291145-7efd050a4d0e",
-      alt: "Modern building facade",
-      title: "Commercial Addition"
-    },
-    {
-      type: "image",
-      src: "https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace",
+      src: "./assets/kitchen1.jpg",
       alt: "Interior renovation",
       title: "Kitchen Renovation"
     },
     {
       type: "image",
-      src: "https://images.unsplash.com/photo-1460574283810-2aab119d8511",
-      alt: "Architectural angles",
+      src: "./assets/modern_extension2.jpg",
+      alt: "Modern Extension",
       title: "Modern Extension"
     }
   ];

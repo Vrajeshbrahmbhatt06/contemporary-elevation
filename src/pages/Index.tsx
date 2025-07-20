@@ -22,7 +22,7 @@ const Index = () => {
           <div className="flex justify-between items-center h-20">
             <div className="flex items-center">
               <img 
-                src="/lovable-uploads/0cc49de3-12c8-46d8-a599-0bcf698a369c.png" 
+                src="./uploads/0cc49de3-12c8-46d8-a599-0bcf698a369c.png" 
                 alt="Contemporary Elevation Logo" 
                 className="h-12 w-auto"
               />
@@ -66,12 +66,12 @@ const Index = () => {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-white pt-20">
-        <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1487958449943-2429e8be8625')] bg-cover bg-center opacity-5"></div>
+      <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-50 to-white pt-50">
+        <div className="absolute inset-0 bg-[url('./assets/main_BG.jpg')] bg-cover bg-center opacity-5"></div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <div className="mb-8 animate-fade-in">
             <img 
-              src="/lovable-uploads/0cc49de3-12c8-46d8-a599-0bcf698a369c.png" 
+              src="./uploads/0cc49de3-12c8-46d8-a599-0bcf698a369c.png" 
               alt="Contemporary Elevation Logo" 
               className="h-32 w-auto mx-auto mb-8"
             />
@@ -95,10 +95,10 @@ const Index = () => {
               View Our Work
             </button>
             <a 
-              href="tel:437-XXX-XXX9"
+              href="tel:437-339-9999"
               className="px-8 py-4 border-2 border-gray-900 text-gray-900 font-medium hover:bg-gray-900 hover:text-white transition-all duration-300"
             >
-              Call 437.XXX.XXX9
+              Call 437.339.9999
             </a>
           </div>
         </div>
@@ -134,7 +134,7 @@ const Index = () => {
                 <div className="space-y-4">
                   <a href="tel:437-XXX-XXX9" className="flex items-center text-lg hover:text-gray-600 transition-colors group">
                     <Phone className="w-5 h-5 mr-3 group-hover:scale-110 transition-transform" />
-                    437.XXX.XXX9
+                    437.339.9999
                   </a>
                   <a href="mailto:info@contemporaryelevation.com" className="flex items-center text-lg hover:text-gray-600 transition-colors group">
                     <Mail className="w-5 h-5 mr-3 group-hover:scale-110 transition-transform" />
@@ -166,7 +166,7 @@ const Index = () => {
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <img 
-            src="/lovable-uploads/0cc49de3-12c8-46d8-a599-0bcf698a369c.png" 
+            src="./uploads/0cc49de3-12c8-46d8-a599-0bcf698a369c.png" 
             alt="Contemporary Elevation Logo" 
             className="h-16 w-auto mx-auto mb-6 filter invert"
           />
